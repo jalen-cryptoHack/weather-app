@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jalen_T_weather_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-4" translatesAutoresizingMaskIntoConstraints="NO" id="8Nf-CP-fQj">
+                                <rect key="frame" x="416" y="125" width="268" height="773"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="current Local Temperature" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F2p-Qo-FI6">
+                                <rect key="frame" x="785" y="272" width="729" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Weather Man weather app" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FOs-1n-BlB">
+                                <rect key="frame" x="967" y="125" width="729" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Current condition" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h8h-I8-w0v">
+                                <rect key="frame" x="785" y="488" width="729" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dew Point" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nro-25-HuM">
+                                <rect key="frame" x="785" y="675" width="729" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currentTemp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-GJ-mr2">
+                                <rect key="frame" x="826" y="360" width="211" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currentsummary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgi-Ft-5rJ">
+                                <rect key="frame" x="787" y="591" width="276" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CurrentDewPoint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdK-96-5dQ">
+                                <rect key="frame" x="785" y="783" width="288" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="Xgi-Ft-5rJ" secondAttribute="trailing" constant="767" id="1gU-Ju-Gro"/>
+                            <constraint firstItem="8Nf-CP-fQj" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="326" id="2YY-Kk-Khj"/>
+                            <constraint firstItem="Jed-GJ-mr2" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="300" id="8Kh-6f-uKT"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="gdK-96-5dQ" secondAttribute="trailing" constant="757" id="Ilh-qZ-8vx"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="8Nf-CP-fQj" secondAttribute="trailing" constant="1146" id="L3Q-e7-jh9"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="bottom" secondItem="8Nf-CP-fQj" secondAttribute="bottom" constant="122" id="Sox-8R-gjE"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="Jed-GJ-mr2" secondAttribute="trailing" constant="793" id="T0H-Le-pa7"/>
+                            <constraint firstItem="Jed-GJ-mr2" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="736" id="csQ-aU-BiD"/>
+                            <constraint firstItem="Xgi-Ft-5rJ" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="531" id="l1Q-K6-g4Z"/>
+                            <constraint firstItem="gdK-96-5dQ" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="723" id="qFT-E6-C3S"/>
+                            <constraint firstItem="8Nf-CP-fQj" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="65" id="r01-XN-p7T"/>
+                            <constraint firstItem="gdK-96-5dQ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="695" id="tBF-oY-Rvs"/>
+                            <constraint firstItem="Xgi-Ft-5rJ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="697" id="x8u-JG-spU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                    </view>
+                    <connections>
+                        <outlet property="currentTemp" destination="Jed-GJ-mr2" id="sWV-pT-zbn"/>
+                        <outlet property="currentlyDewpoint" destination="gdK-96-5dQ" id="d3k-4X-6DG"/>
+                        <outlet property="currentsummary" destination="Xgi-Ft-5rJ" id="Yl7-SI-WAa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="677" y="-17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images-4" width="268" height="188"/>
+    </resources>
+</document>
